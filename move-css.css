@@ -285,7 +285,7 @@
 button {
   padding: 10px;
   background-color: transparent;
-  border: 2px solid pink;
+  border: 2px solid #59493b;
   color: black;
   font-size: 14px;
   cursor: pointer;
@@ -372,7 +372,7 @@ button {
   display: inline-block;
   margin-top: 14px;
   padding: 10px 18px;
-  border: 2px solid pink;
+  border: 2px solid #59493b;
   color: black;
   text-decoration: none;
   border-radius: 5px;
