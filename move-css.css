@@ -707,6 +707,7 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.55;
 }
 
 .overlay-text {
@@ -743,6 +744,14 @@ button {
   }
 
   .programs-gallery-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 30px auto;
+    width: 90%;
+  }
+
+  .programs-gallery-two .gallery-card-overlay:first-child {
     display: none;
   }
 
